@@ -4,6 +4,9 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
+#include <stdio.h>
+#include <stdlib.h>
+
 void _ZN7android18BnProducerListener16onBufferDetachedEi() {
-    return;
+    exit(EXIT_SUCCESS);
 }
